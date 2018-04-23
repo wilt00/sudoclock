@@ -3,10 +3,18 @@ html, body {
     color: #fff;
 }
 
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
 #clock {
-    position:fixed; 
-    top:0; 
-    left:0; 
-    height:100%; 
-    width:100%;
+    align-self: center;
+    padding-top: 8%
+}
+
+#date {
+    font-family: 'Roboto', sans-serif;
+    align-self: center;
+    font-size: 300%
 }
